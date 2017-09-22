@@ -71,8 +71,8 @@ function draw() {
             snake.xV.push(0);
             snake.yV.push(0);
           }
-          apple.x = floor(random(0,windowWidth)/10)*10-10;
-          apple.y = floor(random(0,windowHeight)/10)*10-10;
+          apple.x = floor(random(10,windowWidth)/10)*10-10;
+          apple.y = floor(random(10,windowHeight)/10)*10-10;
         }
       }
       if(snake.x[i] > windowWidth-10){
@@ -211,8 +211,8 @@ function draw() {
       gameOver = false;
       lastKey = 0;
       apple = {//apple object
-        x: floor(ramdom(10(,windowWidth)/10)*10,
-        y: floor(random(10,windowHeight)/10)*10
+        x: floor(ramdom(0(,windowWidth)/10)*10,
+        y: floor(random(0(,windowHeight)/10)*10
       };
       snake = {//snake object
         x: [100],
