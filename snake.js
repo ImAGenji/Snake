@@ -211,8 +211,8 @@ function draw() {
       gameOver = false;
       lastKey = 0;
       apple = {//apple object
-        x: floor(1,windowWidth)/10)*10,
-        y: floor(10,windowHeight)/10)*10
+        x: floor(ramdom(10(,windowWidth)/10)*10,
+        y: floor(random(10,windowHeight)/10)*10
       };
       snake = {//snake object
         x: [100],
