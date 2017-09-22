@@ -1,6 +1,6 @@
 var apple = {//apple object
-  x: 0,
-  y: 0
+  x: 1,
+  y: 2
 };
 var snake = {//snake object
   x: [100],
